@@ -9,15 +9,8 @@ function Counter() {
       <h2>My First React Counter</h2>
 
       <p>Count: {count}</p>
-      
-      <div
-        style={{
-          display: "flex",
-          gap: "10px",
-          justifyContent: "center",
-          marginBottom: "10px",
-        }}
-      >
+
+      <div className="button-row">
         <button onClick={() => setCount(count > 0 ? count - 1 : 0)}>
           Decrease
         </button>
@@ -25,7 +18,6 @@ function Counter() {
       </div>
 
       <div>
-        {" "}
         <button onClick={() => setCount(0)}>Reset</button>
       </div>
     </div>

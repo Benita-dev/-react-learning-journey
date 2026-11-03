@@ -20,8 +20,16 @@
   background-color: #646cff;
   color: white;
   cursor: pointer;
+  
 }
 
 .counter-container button:hover {
   background-color: #535bf2;
+}
+
+.button-row {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 10px;
 }
